@@ -1,0 +1,8 @@
+.idea
+__pycache__
+development_files
+build
+dist
+ngramtg.egg-info/
+coverage_html_report/
+.coverage

@@ -66,7 +66,7 @@ def test_preprocessing_of_corpus(with_test_instance):
 
 def test_ngram_length(with_test_instance):
     # By default we want bigrams, so length should be 2
-    assert with_test_instance.ngram_length() is 2
+    assert with_test_instance.ngram_length() == 2
 
     # We can change the value
     with_test_instance.set_ngram_length(5)
